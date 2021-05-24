@@ -81,6 +81,26 @@ function my_keydown(e) {
         new_image('thor.jpeg');
         console.log("t = thor");
     }
+    if(keyPressed == '38')
+    {
+        up();
+        console.log("up")
+    }
+    if(keyPressed == '40')
+    {
+        down();
+        console.log("down")
+    }
+    if(keyPressed == '37')
+    {
+        left();
+        console.log("left");
+    }
+    if(keyPressed == '39')
+    {
+        right();
+        console.log("right");
+    }
 }
 
 function up() {
